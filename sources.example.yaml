@@ -1,0 +1,38 @@
+# sources.example.yaml (YAML-only, vše na jednom místě)
+
+oauth:
+  client_id: "YOUR_CLIENT_ID"
+  client_secret: "YOUR_CLIENT_SECRET"
+  # Redirect URI musí být whitelisted v developer.spotify.com (přidej si klidně víc portů).
+  redirect_uri: "http://127.0.0.1:8080/callback"
+  # Volitelné: skript si vybere první volný port z tohoto seznamu.
+  redirect_ports:
+    - 8080
+    - 8123
+    - 8888
+
+mix:
+  playlist_name: "Mix: Bachata(3) • Kizomba(3)"
+  public: false
+  pattern: "bachata:3,kizomba:3"
+  target_length: 200
+  overwrite: true  # true = přepsat playlist; false = jen přidat sklady navrch
+
+categories:
+  bachata:
+    main:
+      - "https://open.spotify.com/playlist/MAIN_BACHATA_ID"
+    fallbacks:
+      - "https://open.spotify.com/playlist/BACHATA_FB_1"
+      - "https://open.spotify.com/playlist/BACHATA_FB_2"
+
+  kizomba:
+    main:
+      - "https://open.spotify.com/playlist/MAIN_KIZOMBA_ID"
+    fallbacks:
+      - "https://open.spotify.com/playlist/KIZOMBA_FB_1"
+
+  salsa:
+    main:
+      - "https://open.spotify.com/playlist/MAIN_SALSA_ID"
+    fallbacks: []

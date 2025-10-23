@@ -1,0 +1,6 @@
+.cache-spotify-mixer
+.DS_Store
+/venv
+.git
+.venv.stamp
+sources.yaml
