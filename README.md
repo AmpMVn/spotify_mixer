@@ -258,6 +258,4 @@ Když něco nejde, koukni do sekce „Časté problémy“, nebo napiš a pošlu
 ---
 
 ## License
-This project is released under the **PolyForm Noncommercial License 1.0.0** (SPDX: PolyForm-Noncommercial-1.0.0).  
-You can use, copy, modify, and share it **for noncommercial purposes**.  
-For full terms, see the `LICENSE.md` file or visit the PolyForm site.
+This project is released under the MIT License. See LICENSE.md for details.

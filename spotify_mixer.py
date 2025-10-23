@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# SPDX-License-Identifier: MIT
 """
 Spotify playlist mixer — plně YAML-only
 
 Author: Michal Vaněk <vanek@agmepro.cz>
 Copyright (c) 2025 Michal Vaněk
-License: PolyForm Noncommercial 1.0.0 — see LICENSE.md
+License: MIT — see LICENSE.md
 
 Popis:
 - Všechna nastavení (OAuth, mix, kategorie) jsou v jednom souboru: sources.yaml
